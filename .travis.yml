@@ -10,6 +10,7 @@ git :
 script:
   - yarn build
 notifications:
+  slack: testing-nqp2724:Mup4dEkdzBfrCJFgZfoRFNDF
   email:
     recipients:
       - diegopaul7@outlook.com
