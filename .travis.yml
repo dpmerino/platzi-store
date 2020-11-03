@@ -13,8 +13,8 @@ notifications:
   email:
     recipients:
       - diegopaul7@outlook.com
-      on_succes: always
-      on_failure: alwasys
+    on_success: always
+    on_failure: always
 deploy:
   provider: pages
   skip-cleanup: true
